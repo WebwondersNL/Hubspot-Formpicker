@@ -1,0 +1,21 @@
+﻿{
+  "propertyEditors": [
+    {
+      "alias": "Our.Umbraco.Hubspot.FormPicker",
+      "name": "Hubspot formpicker",
+      "isParameterEditor": true,
+      "group": "Pickers",
+      "icon": "icon-umb-contour",
+      "editor": {
+        "view": "~/App_Plugins/Our.Umbraco.Hubspot/Views/FormPicker.html"
+      }
+    }
+  ],
+  "css": [
+    "~/App_Plugins/Our.Umbraco.Hubspot/Css/Styles.css" 
+  ],
+  "javascript": [
+    "~/App_Plugins/Our.Umbraco.Hubspot/Js/FormPicker.controller.js",
+    "~/App_Plugins/Our.Umbraco.Hubspot/Js/Resources.js"
+  ]
+}
